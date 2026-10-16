@@ -1,0 +1,13 @@
+plugins { id 'com.android.application' }
+
+android {
+    namespace 'com.wasla.chat'
+    compileSdk 35
+    defaultConfig {
+        applicationId 'com.wasla.chat'
+        minSdk 26
+        targetSdk 28
+        versionCode 1
+        versionName '0.1-alpha'
+    }
+}
